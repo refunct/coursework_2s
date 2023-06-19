@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Судебные экспертизы", "Судебные экспертизы\Судебные экспертизы.dwproj", "{618C91AC-531C-4E9A-9400-86F44E526679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{618C91AC-531C-4E9A-9400-86F44E526679}.Development|Default.ActiveCfg = Development
+		{618C91AC-531C-4E9A-9400-86F44E526679}.Development|Default.Build.0 = Development
+		{618C91AC-531C-4E9A-9400-86F44E526679}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

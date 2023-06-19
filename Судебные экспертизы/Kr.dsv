@@ -1,0 +1,228 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="35ac6c14-f41c-4c9f-9c42-9ce4d38581e5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kr</ID>
+  <Name>Kr</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Kr</DataSourceID>
+  <Schema>
+    <xs:schema id="Kr" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Kr" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="420f40f8-ed1d-43ad-9a12-8bfd26bb382d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Customers" msprop:design-time-name="e5f30186-7ad9-41d1-81bd-5e41a5606cf0" msprop:DbTableName="Customers" msprop:FriendlyName="Customers" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ClientID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0eb29fe6-b32a-4fa2-ae10-cfdd2807611a" msprop:DbColumnName="ClientID" msprop:FriendlyName="ClientID" type="xs:int" />
+                  <xs:element name="Full_name" msprop:design-time-name="404daa8d-f18d-42bd-87e4-d8ae5c4be87f" msprop:DbColumnName="Full_name" msprop:FriendlyName="Full_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Organization" msprop:design-time-name="afb451fd-1da8-422e-9609-10b284d9cf10" msprop:DbColumnName="Organization" msprop:FriendlyName="Organization" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Telephone" msprop:design-time-name="cda3f71d-6600-4f1c-8b01-ca2c1bb69406" msprop:DbColumnName="Telephone" msprop:FriendlyName="Telephone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Mail" msprop:design-time-name="cc46b9e1-869a-47f3-8fc9-ac376cf72156" msprop:DbColumnName="Mail" msprop:FriendlyName="Mail" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Expertise" msprop:design-time-name="48130af4-96e3-4a2b-8947-bdfb0b7cf650" msprop:DbTableName="Expertise" msprop:FriendlyName="Expertise" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ExpertiseID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="a5c7b84b-9518-4861-a490-4f9442cf668d" msprop:DbColumnName="ExpertiseID" msprop:FriendlyName="ExpertiseID" type="xs:int" />
+                  <xs:element name="ClientID" msprop:design-time-name="b880665c-d0cf-4b89-8fad-215907468a7e" msprop:DbColumnName="ClientID" msprop:FriendlyName="ClientID" type="xs:int" minOccurs="0" />
+                  <xs:element name="ExpertID" msprop:design-time-name="7f8217c4-9137-4cb0-a3af-41dde7817109" msprop:DbColumnName="ExpertID" msprop:FriendlyName="ExpertID" type="xs:int" minOccurs="0" />
+                  <xs:element name="TypeID" msprop:design-time-name="47a24d1c-a30c-43a4-9f11-2456f862388d" msprop:DbColumnName="TypeID" msprop:FriendlyName="TypeID" type="xs:int" minOccurs="0" />
+                  <xs:element name="Name" msprop:design-time-name="acaf624f-3179-4cf2-af20-59508cba96cb" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Questions" msprop:design-time-name="d7d2b3fa-2e8f-49ea-9841-29d772e5331b" msprop:DbColumnName="Questions" msprop:FriendlyName="Questions" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Text" msprop:design-time-name="89410ffb-61de-4e84-85fa-0cc75d56972e" msprop:DbColumnName="Text" msprop:FriendlyName="Text" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Date_acceptance" msprop:design-time-name="2a49f7f0-0e21-4047-986e-05249efe81be" msprop:DbColumnName="Date_acceptance" msprop:FriendlyName="Date_acceptance" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Date_completion" msprop:design-time-name="49abc1f6-6526-43cc-88e5-857f3bd08be3" msprop:DbColumnName="Date_completion" msprop:FriendlyName="Date_completion" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Result" msprop:design-time-name="1cfa6494-4a15-496c-a430-07b2c456628d" msprop:DbColumnName="Result" msprop:FriendlyName="Result" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Experts" msprop:design-time-name="b5871148-7498-420e-8ed5-735dfd871a27" msprop:DbTableName="Experts" msprop:FriendlyName="Experts" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ExpertID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="3d91f1da-3293-4482-9b5b-a4d19b5709e9" msprop:DbColumnName="ExpertID" msprop:FriendlyName="ExpertID" type="xs:int" />
+                  <xs:element name="Full_name" msprop:design-time-name="c97bc988-2099-4614-85c7-b612cec14085" msprop:DbColumnName="Full_name" msprop:FriendlyName="Full_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Telephone" msprop:design-time-name="2072f5c8-1976-4d65-9fa0-dd7bb381b079" msprop:DbColumnName="Telephone" msprop:FriendlyName="Telephone" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Mail" msprop:design-time-name="3b792e8f-07e0-4f26-98b1-1f1da5dd001d" msprop:DbColumnName="Mail" msprop:FriendlyName="Mail" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Date_birth" msprop:design-time-name="18cfd2b4-5f34-4a8a-8cd6-7effe1c7850d" msprop:DbColumnName="Date_birth" msprop:FriendlyName="Date_birth" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="TypeID" msprop:design-time-name="cefb3108-9189-4a1b-8ae2-b9d13e20c030" msprop:DbColumnName="TypeID" msprop:FriendlyName="TypeID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Tolerances" msprop:design-time-name="8dcbaa62-91df-4fda-9ee2-307bfbd8c716" msprop:DbTableName="Tolerances" msprop:FriendlyName="Tolerances" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="AccessID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5fb12681-4fa2-4bfd-894a-3f70c2670fc6" msprop:DbColumnName="AccessID" msprop:FriendlyName="AccessID" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="2f11d25b-6f8f-45c6-81c6-504ea4429244" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Types" msprop:design-time-name="f71ae34f-2d69-4bca-ab3b-efc5b6e3a63f" msprop:DbTableName="Types" msprop:FriendlyName="Types" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TypeID" msprop:design-time-name="e78b3ec2-1e1f-4344-8b34-2ec3feecff63" msprop:DbColumnName="TypeID" msprop:FriendlyName="TypeID" type="xs:int" />
+                  <xs:element name="AccessID" msprop:design-time-name="e1982dd3-3cd6-4c1a-805d-6438228c2f4d" msprop:DbColumnName="AccessID" msprop:FriendlyName="AccessID" type="xs:int" />
+                  <xs:element name="Name" msprop:design-time-name="13a25e02-cedd-4127-bfd8-5c00907f9cfd" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="250" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Customers" />
+          <xs:field xpath="ClientID" />
+        </xs:unique>
+        <xs:unique name="dbo_Expertise_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Expertise" />
+          <xs:field xpath="ExpertiseID" />
+        </xs:unique>
+        <xs:unique name="dbo_Experts_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Experts" />
+          <xs:field xpath="ExpertID" />
+        </xs:unique>
+        <xs:unique name="dbo_Tolerances_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Tolerances" />
+          <xs:field xpath="AccessID" />
+        </xs:unique>
+        <xs:unique name="dbo_Types_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Types" />
+          <xs:field xpath="TypeID" />
+        </xs:unique>
+        <xs:keyref name="FK_AccessID" refer="dbo_Tolerances_Constraint1">
+          <xs:selector xpath=".//dbo_Types" />
+          <xs:field xpath="AccessID" />
+        </xs:keyref>
+        <xs:keyref name="FK_TypeID" refer="dbo_Types_Constraint1">
+          <xs:selector xpath=".//dbo_Experts" />
+          <xs:field xpath="TypeID" />
+        </xs:keyref>
+        <xs:keyref name="FK_TypeID_E" refer="dbo_Types_Constraint1">
+          <xs:selector xpath=".//dbo_Expertise" />
+          <xs:field xpath="TypeID" />
+        </xs:keyref>
+        <xs:keyref name="FK_ExpertID" refer="dbo_Experts_Constraint1">
+          <xs:selector xpath=".//dbo_Expertise" />
+          <xs:field xpath="ExpertID" />
+        </xs:keyref>
+        <xs:keyref name="FK_ClientID" refer="Constraint1">
+          <xs:selector xpath=".//dbo_Expertise" />
+          <xs:field xpath="ClientID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Kr xmlns="" />
+  </Schema>
+</DataSourceView>
